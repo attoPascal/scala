@@ -1,0 +1,208 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #333333;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode", Lucida, sans-serif;
+}
+
+#start {
+  width: 800px;
+  margin: auto;
+  padding: 15px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+#redirect {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+  background-color: #FFFFFF;
+}
+
+#redirect h1 {
+  margin: 0px;
+  padding: 15px;
+  color: #FFFFFF;
+  background-color: #CC0000;
+}
+
+#redirect div {
+  padding: 15px;
+}
+
+#redirect a {
+  color: #CC0000;
+}
+
+#header {
+  color: #FFFFFF;
+  background-color: #CC0000;
+}
+
+#header #logo {
+  width: 200px;
+}
+
+#header #logo a {
+  display: block;
+  width: 200px;
+  padding: 5px 15px;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+#header #logo a:hover {
+  background-color: #BB0000;
+  text-decoration: none;
+}
+
+#header #logo span, span.logo span {
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: sub;
+}
+
+#header #plink {
+  padding: 15px;
+  height: 45px;
+  float: right;
+  text-align: right;
+}
+
+#header #plink a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+span.logo {
+  color: #CC0000;
+}
+
+#all {
+  width: 800px;
+  margin: auto;
+  background-image: url(img/bg.png);
+}
+
+#nav {
+  margin: 0px;
+  padding: 15px;
+  width: 200px;
+  float: left;
+  background-color: #EEEEEE;
+}
+
+#content {
+  margin: 0px 0px 0px 230px;
+  padding: 15px;
+  color: #333333;
+  background-color: #FFFFFF;
+  background-image:none;
+}
+
+#content h1, #content h2 {
+  margin: 0px 0px 15px;
+  padding: 0px;
+}
+
+#content div.status, #content div.friend {
+  margin-top: 10px;
+  border: 1px solid #FFFFFF;
+}
+
+#content div.nick a, #content p a {
+  color: #CC0000;
+  font-weight: bold;
+}
+
+#newstatus form {
+  margin: 15px 0px 20px;
+  padding: 5px;
+  border: 1px solid #EEEEEE;
+}
+
+#newstatus form textarea {
+  width: 515px;
+  height: 18px;
+  margin: 0px;
+  padding: 5px;
+  color: #333333;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode", Lucida, sans-serif;
+  border: 2px groove #333333;
+  resize: none;
+}
+
+#newstatus form div {
+  margin-top: 5px;
+  text-align: right;
+}
+
+div.feed div.new {
+  display: none;
+}
+
+#chat h3 span {
+  color: #333333;
+  font-weight: normal;
+}
+
+#chat div.chats {
+  margin-right: -33px;
+  padding-right: 33px;
+  max-height: 280px;
+  overflow: auto;
+  font-size: 12px;
+}
+
+#chat input {
+  width: 453px;
+  background-color: #EEEEEE;
+}
+
+#friendtabs {
+  width: 532px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  color: #444444;
+  background-color: #FBF8EE;
+  border: 1px solid #FCD3A1 !important;
+}
+
+.hide {
+  display: none;
+}
+
+.expand {
+  height: 50px !important;
+}
+
+.floatbuttons {
+  width: 250px;
+  float: right;
+  text-align: right;
+}
+
+.errors {
+  margin-bottom: 15px;
+  padding: 15px;
+  color: #2E2E2E;
+  background-color: #F3D8D8;
+  border: 1px solid #CC0000;
+}
