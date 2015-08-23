@@ -1,6 +1,6 @@
   <h1>&Uuml;ber den Autor</h1>
   
-  <p>Pascal Attwenger.<br />
+  <p>Pascal.<br />
   Ja, das bin ich, kann ja auch nix daf&uuml;r!</p>
   
   <p>Naja, was soll ich schon gro&szlig; erz&auml;hlen&hellip;<br />
